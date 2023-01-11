@@ -1,0 +1,397 @@
+/*Mobile First*/
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
+.cabeza{
+
+    width: 400px;
+    
+    
+}
+
+
+#logo{
+
+    padding: 20px 20px;
+   
+}
+
+
+
+.container{
+    width: 400px;
+    margin: 40px 0px;
+    
+    
+}
+
+
+form label{
+
+    padding: 50px 15px;
+    
+
+
+}
+
+
+
+#texto{
+    
+    border: none;
+    margin-bottom: 200px;
+    margin-left: 18px;
+    color: #0A3871;
+    font-size: 30px;
+    
+    
+}
+
+#texto::placeholder{
+    color: #0A3871;
+    border: none;
+
+}
+
+#texto:focus{
+    outline: none;
+}
+
+
+
+p{
+    margin: 30px 18px;
+    color: #555;
+}
+
+#Encriptar{
+    display: block;
+    margin: 20px auto;
+    padding: 20px 157px;
+    border-radius: 20px;
+    font-size: 15px;
+    background-color: #0A3871;
+    color: white;
+    border: none;
+
+
+}
+
+
+#Encriptar:hover{
+
+    transform: scale(1.1);
+    cursor: pointer;
+
+}
+
+#Desencriptar{
+    display: block;
+    margin: 25px auto;
+    padding: 20px 142px;
+    border-radius: 20px;
+    font-size: 15px;
+    border: 1px solid #0A3871;
+    color: #0A3871;
+
+}
+
+
+#Desencriptar:hover{
+
+    transform: scale(1.1);
+    cursor: pointer;
+
+}
+
+
+
+#resultado{
+
+    width: 92%;
+    margin: 10px auto;
+    border-radius: 10px;
+    padding: 45px 20px;
+    box-sizing: border-box;
+    box-shadow: -2px 2px 2px 0px  #555, 2px 2px 2px 0px  #555, 2px -2px 2px 0px #555, -2px -2px 2px 0px #555;
+    
+}
+
+
+#mensajeResultado{
+
+    display: none;
+    font-size: 30px;
+    color: #555;
+    text-align: center;
+
+}
+
+#Copiar{
+    display: none;
+    margin: 25px auto;
+    padding: 20px 142px;
+    border-radius: 20px;
+    font-size: 15px;
+    border: 1px solid #0A3871;
+    color: #0A3871;
+}
+
+#Copiar:hover{
+
+    transform: scale(1.1);
+    cursor: pointer;
+
+}
+
+
+
+
+#Muñeco{
+
+    display: none;
+}
+
+
+
+#mensaje1{
+
+
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+
+}
+
+#mensaje2{
+
+    font-size: 18px;
+    text-align: center;
+    color: #555;
+    margin-top: 10px;
+
+}
+
+
+
+
+
+
+
+/*Tablet style*/
+
+@media (min-width: 600px){
+
+    .cabeza{
+
+        width: 600px;
+        
+        
+        
+    }
+    
+    
+    .container{
+        width: 600px;
+        
+       
+        
+    }
+
+
+    #proceso{
+        width: 100%;
+        
+    }
+    
+    
+
+    
+    
+    
+    #texto{
+        
+        
+        margin-bottom: 200px;
+        margin-left: 18px;
+        width: 90%;
+        
+        
+    }
+    
+    
+    
+    
+    p{
+        margin: 10px 18px;
+
+    }
+    
+    #Encriptar{
+        display: inline-block;
+        margin: 10px 15px;
+        padding: 20px 18%;
+        
+  
+    }
+    
+    #Desencriptar{
+        display: inline-block;
+        margin: 25px 10px;
+        padding: 20px 15%;
+       
+    
+    }
+    
+     
+    
+    #mensajeResultado{
+    
+        display: none;
+        font-size: 30px;
+        color: #555;
+        text-align: center;
+    
+    }
+    
+    #Copiar{
+        display: none;
+        margin: 25px auto;
+        padding: 20px 220px;
+        border-radius: 20px;
+        font-size: 15px;
+        border: 1px solid #0A3871;
+        color: #0A3871;
+    }
+    
+    
+}
+
+
+
+/*PC style*/
+
+
+@media (min-width: 1000px) {
+
+
+    
+    
+    .container{
+        width: 99%;
+        
+    }
+
+    #proceso{
+        width: 60%;
+        display: inline-block;
+        margin-left: 100px;
+        box-sizing: border-box;
+        padding: 40px 60px;
+        
+        
+    }
+
+    #texto{
+        
+        margin-bottom: 260px;
+        margin-left: 18px;
+        width: 90%;
+        
+    }
+    
+    
+    
+
+    p{
+        margin: 30px 18px;
+        color: #555;
+    }
+
+    #botones{
+        width: 100%;
+        
+    }
+    
+    #Encriptar{
+        display: inline-block;
+        margin: 20px 10px;
+        padding: 25px 130px;
+        border-radius: 20px;
+        font-size: 15px;
+        background-color: #0A3871;
+        color: white;
+        border: none;
+    
+    
+    }
+    
+    #Desencriptar{
+        display: inline;
+        margin: 25px 10px;
+        padding: 25px 120px;
+        border-radius: 20px;
+        font-size: 15px;
+        border: 1px solid #0A3871;
+        color: #0A3871;
+    
+    }
+
+    #Muñeco{
+
+        display: inline;
+        margin-top: 70px;
+    }
+    
+    
+    
+    #resultado{
+    
+        width: 29%;
+        display: inline-block;
+        margin: 10px auto;
+        border-radius: 10px;
+        padding: 0px 20px;
+        height: 700px;
+        box-sizing: border-box;
+        position: absolute;
+        top: 0;
+        
+        
+    }
+
+    #mensajeResultado{
+        height: 500px;
+        
+    
+    }
+
+    
+    
+
+    
+    #Copiar{
+        display: none;
+        margin: 50px 18px;
+        padding: 20px 142px;
+        border-radius: 20px;
+        font-size: 15px;
+        border: 1px solid #0A3871;
+        color: #0A3871;
+        position: absolute;
+        bottom: 0;
+    }
+    
+    
+    
+    
+    
+
+    
+}
