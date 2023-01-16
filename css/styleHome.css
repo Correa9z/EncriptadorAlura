@@ -59,8 +59,10 @@ form label{
 
 }
 
+
 #texto:focus{
     outline: none;
+
 }
 
 
@@ -124,13 +126,26 @@ p{
 }
 
 
+
 #mensajeResultado{
-
-    display: none;
+    border: none;
     font-size: 30px;
-    color: #555;
-    text-align: center;
+    color: #0A3871;
+    text-align:left;
+    margin: 0px 10px;
 
+}
+
+#mensajeResultado::placeholder{
+    color: #0A3871;
+}
+
+
+
+
+#mensajeResultado:focus{
+    outline: none;
+    color: #0A3871;
 }
 
 #Copiar{
@@ -255,8 +270,7 @@ p{
     
         display: none;
         font-size: 30px;
-        color: #555;
-        text-align: center;
+        color: #0A3871;
     
     }
     
@@ -300,7 +314,7 @@ p{
 
     #texto{
         
-        margin-bottom: 260px;
+        margin-bottom: 45px;
         margin-left: 18px;
         width: 90%;
         
@@ -369,11 +383,7 @@ p{
     #mensajeResultado{
         height: 500px;
         
-    
     }
-
-    
-    
 
     
     #Copiar{
@@ -389,9 +399,5 @@ p{
     }
     
     
-    
-    
-    
 
-    
 }

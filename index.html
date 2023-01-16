@@ -29,7 +29,7 @@
 
             <div id="proceso">
                 <label>
-                    <input type="text" name="texto" id="texto" placeholder="Ingrese el texto aqui" required>
+                    <textarea name="texto" id="texto" placeholder="Ingrese el texto aqui" required cols="22" rows="7"></textarea>
                 </label>
 
                 <p> Solo letras en minusculas y sin acentos</p>
@@ -43,7 +43,7 @@
             <div id="resultado">
 
                 <div id="contenidoResultado">
-                    <p id="mensajeResultado"></p>
+                    <textarea name="mensajeResultado" id="mensajeResultado" required cols="18" rows="7"></textarea>
                     <button id="Copiar" onclick="copiarAlPortapapeles('mensajeResultado')">Copiar</button>
                 </div>
 
